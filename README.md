@@ -6,7 +6,7 @@ My program makes automatic data preparation for any given dataset, than generate
 (Bu süreçler kodun içerisinde de başlama bitiş olarak Comment’ler ile belirtilmişlerdir)
 
 - 100% Missing Value sutün varsa düşür.
-- Feature Importance işleminde Generic bir yazılım geliştirdiğimden ötürü, default olarak Date&Time sütunları üzerinden işlem yapılmamaktadır. Bu yüzden düşürülürler.
+- Feature Importance işleminde Generic bir yazılım geliştirdiğimden ötürü, default olarak Date&Time sütunları üzerinden işlem yapılmamaktadır. Bu yüzden düşürülürler.- Kullanıcı isteğine göre ayrıca bir serviste Date verisine göre analiz yapılabilecektir.
 - 90% dan daha çok “UNIQUE” değer içeren sütunlar analiz yapılacak verilerin arasından düşürülür (örneğin TC, telefon numarası vb.)
 - Numeric Sütunlar için Missing Value Handling
 - Nominal Sütunlar için Missing Value Handling
